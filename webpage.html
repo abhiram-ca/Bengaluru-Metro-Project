@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bengaluru Metro Route Finder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 50%;
+            margin: 40px auto;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bengaluru Metro Route Finder</h1>
+        <form>
+            <label for="source">Source Station:</label>
+            <div class="dropdown">
+                <select id="source" name="source">
+                    <option value="">Select a station</option>
+                    <!-- Add options for each station here -->
+                    <option value="Majestic">Majestic</option>
+                    <option value="Yelachenahalli">Yelachenahalli</option>
+                    <!-- Add more options here -->
+                </select>
+            </div>
+            <label for="destination">Destination Station:</label>
+            <div class="dropdown">
+                <select id="destination" name="destination">
+                    <option value="">Select a station</option>
+                    <!-- Add options for each station here -->
+                    <option value="Majestic">Majestic</option>
+                    <option value="Yelachenahalli">Yelachenahalli</option>
+                    <!-- Add more options here -->
+                </select>
+            </div>
+            <button type="submit">Find Route</button>
+        </form>
+        <div id="route"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
