@@ -23,11 +23,7 @@ A Flask-based web application to help users find the **shortest metro route** be
 
 ---
 
-## 📸 Screenshots
 
-> Add screenshots here if desired
-
----
 
 ## 📂 Project Structure
 
